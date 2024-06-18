@@ -6,6 +6,24 @@
 //
 
 import SwiftUI
+import Firebase
+import FirebaseRemoteConfigSwift
+import UIKit
+import SwiftUI
+import Firebase
+import FirebaseCore
+import FirebaseFirestore
+import FirebaseRemoteConfigSwift
+import FirebaseSharedSwift
+
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+  func application(_ application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    FirebaseApp.configure()
+    return true
+  }
+}
 
 @main
 struct Philly_250_WorkMerkApp: App {

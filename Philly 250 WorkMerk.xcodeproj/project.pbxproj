@@ -14,13 +14,14 @@
 		9D08F7F22C21C5CA00FCF330 /* Philly_250_WorkMerkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F7F12C21C5CA00FCF330 /* Philly_250_WorkMerkTests.swift */; };
 		9D08F7FC2C21C5CA00FCF330 /* Philly_250_WorkMerkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F7FB2C21C5CA00FCF330 /* Philly_250_WorkMerkUITests.swift */; };
 		9D08F7FE2C21C5CA00FCF330 /* Philly_250_WorkMerkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F7FD2C21C5CA00FCF330 /* Philly_250_WorkMerkUITestsLaunchTests.swift */; };
-		9D08F80B2C21CA9D00FCF330 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D08F80A2C21CA9D00FCF330 /* GoogleService-Info.plist */; };
 		9D08F80E2C21CC0700FCF330 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9D08F80D2C21CC0700FCF330 /* FirebaseAnalytics */; };
 		9D08F8102C21CC0700FCF330 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9D08F80F2C21CC0700FCF330 /* FirebaseAnalyticsSwift */; };
 		9D08F8122C21CC0700FCF330 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9D08F8112C21CC0700FCF330 /* FirebaseDatabaseSwift */; };
 		9D08F8142C21CC0700FCF330 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9D08F8132C21CC0700FCF330 /* FirebaseFirestoreSwift */; };
 		9D08F8162C21CC0700FCF330 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9D08F8152C21CC0700FCF330 /* FirebaseRemoteConfigSwift */; };
-		9DF5450A2C21CF0700ACD9B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF545092C21CF0700ACD9B8 /* AppDelegate.swift */; };
+		9D21D8142C21E75800BA9F85 /* RemoteConfigDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D21D8132C21E75800BA9F85 /* RemoteConfigDelegate.swift */; };
+		9D21D8172C21FDCD00BA9F85 /* MeshyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D21D8162C21FDCD00BA9F85 /* MeshyAPI.swift */; };
+		9D21D8192C21FDE600BA9F85 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D21D8182C21FDE600BA9F85 /* ARViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +53,10 @@
 		9D08F7F72C21C5CA00FCF330 /* Philly 250 WorkMerkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Philly 250 WorkMerkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D08F7FB2C21C5CA00FCF330 /* Philly_250_WorkMerkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philly_250_WorkMerkUITests.swift; sourceTree = "<group>"; };
 		9D08F7FD2C21C5CA00FCF330 /* Philly_250_WorkMerkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philly_250_WorkMerkUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9D08F80A2C21CA9D00FCF330 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9DF545092C21CF0700ACD9B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D21D8132C21E75800BA9F85 /* RemoteConfigDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigDelegate.swift; sourceTree = "<group>"; };
+		9D21D8152C21EA1000BA9F85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9D21D8162C21FDCD00BA9F85 /* MeshyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshyAPI.swift; sourceTree = "<group>"; };
+		9D21D8182C21FDE600BA9F85 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,7 @@
 		9D08F7D32C21C5C900FCF330 = {
 			isa = PBXGroup;
 			children = (
+				9D21D8152C21EA1000BA9F85 /* GoogleService-Info.plist */,
 				9D08F7DE2C21C5C900FCF330 /* Philly 250 WorkMerk */,
 				9D08F7F02C21C5CA00FCF330 /* Philly 250 WorkMerkTests */,
 				9D08F7FA2C21C5CA00FCF330 /* Philly 250 WorkMerkUITests */,
@@ -109,10 +113,11 @@
 		9D08F7DE2C21C5C900FCF330 /* Philly 250 WorkMerk */ = {
 			isa = PBXGroup;
 			children = (
-				9D08F80A2C21CA9D00FCF330 /* GoogleService-Info.plist */,
 				9D08F7DF2C21C5C900FCF330 /* Philly_250_WorkMerkApp.swift */,
 				9D08F7E12C21C5C900FCF330 /* ContentView.swift */,
-				9DF545092C21CF0700ACD9B8 /* AppDelegate.swift */,
+				9D21D8132C21E75800BA9F85 /* RemoteConfigDelegate.swift */,
+				9D21D8162C21FDCD00BA9F85 /* MeshyAPI.swift */,
+				9D21D8182C21FDE600BA9F85 /* ARViewContainer.swift */,
 				9D08F7E32C21C5CA00FCF330 /* Assets.xcassets */,
 				9D08F7E82C21C5CA00FCF330 /* Philly_250_WorkMerk.entitlements */,
 				9D08F7E52C21C5CA00FCF330 /* Preview Content */,
@@ -261,7 +266,6 @@
 			files = (
 				9D08F7E72C21C5CA00FCF330 /* Preview Assets.xcassets in Resources */,
 				9D08F7E42C21C5CA00FCF330 /* Assets.xcassets in Resources */,
-				9D08F80B2C21CA9D00FCF330 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DF5450A2C21CF0700ACD9B8 /* AppDelegate.swift in Sources */,
+				9D21D8142C21E75800BA9F85 /* RemoteConfigDelegate.swift in Sources */,
+				9D21D8172C21FDCD00BA9F85 /* MeshyAPI.swift in Sources */,
 				9D08F7E22C21C5C900FCF330 /* ContentView.swift in Sources */,
 				9D08F7E02C21C5C900FCF330 /* Philly_250_WorkMerkApp.swift in Sources */,
+				9D21D8192C21FDE600BA9F85 /* ARViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for models.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,6 +491,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for models.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
