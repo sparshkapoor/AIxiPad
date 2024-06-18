@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D08F7E02C21C5C900FCF330 /* Philly_250_WorkMerkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F7DF2C21C5C900FCF330 /* Philly_250_WorkMerkApp.swift */; };
+		9D08F7E22C21C5C900FCF330 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F7E12C21C5C900FCF330 /* ContentView.swift */; };
+		9D08F7E42C21C5CA00FCF330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D08F7E32C21C5CA00FCF330 /* Assets.xcassets */; };
+		9D08F7E72C21C5CA00FCF330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D08F7E62C21C5CA00FCF330 /* Preview Assets.xcassets */; };
+		9D08F7F22C21C5CA00FCF330 /* Philly_250_WorkMerkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F7F12C21C5CA00FCF330 /* Philly_250_WorkMerkTests.swift */; };
+		9D08F7FC2C21C5CA00FCF330 /* Philly_250_WorkMerkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F7FB2C21C5CA00FCF330 /* Philly_250_WorkMerkUITests.swift */; };
+		9D08F7FE2C21C5CA00FCF330 /* Philly_250_WorkMerkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08F7FD2C21C5CA00FCF330 /* Philly_250_WorkMerkUITestsLaunchTests.swift */; };
+		9D08F80B2C21CA9D00FCF330 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D08F80A2C21CA9D00FCF330 /* GoogleService-Info.plist */; };
+		9D08F80E2C21CC0700FCF330 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9D08F80D2C21CC0700FCF330 /* FirebaseAnalytics */; };
+		9D08F8102C21CC0700FCF330 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9D08F80F2C21CC0700FCF330 /* FirebaseAnalyticsSwift */; };
+		9D08F8122C21CC0700FCF330 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9D08F8112C21CC0700FCF330 /* FirebaseDatabaseSwift */; };
+		9D08F8142C21CC0700FCF330 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9D08F8132C21CC0700FCF330 /* FirebaseFirestoreSwift */; };
+		9D08F8162C21CC0700FCF330 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9D08F8152C21CC0700FCF330 /* FirebaseRemoteConfigSwift */; };
+		9DF5450A2C21CF0700ACD9B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF545092C21CF0700ACD9B8 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D08F7EE2C21C5CA00FCF330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D08F7D42C21C5C900FCF330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D08F7DB2C21C5C900FCF330;
+			remoteInfo = "Philly 250 WorkMerk";
+		};
+		9D08F7F82C21C5CA00FCF330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D08F7D42C21C5C900FCF330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D08F7DB2C21C5C900FCF330;
+			remoteInfo = "Philly 250 WorkMerk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D08F7DC2C21C5C900FCF330 /* Philly 250 WorkMerk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Philly 250 WorkMerk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D08F7DF2C21C5C900FCF330 /* Philly_250_WorkMerkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philly_250_WorkMerkApp.swift; sourceTree = "<group>"; };
+		9D08F7E12C21C5C900FCF330 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D08F7E32C21C5CA00FCF330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D08F7E62C21C5CA00FCF330 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D08F7E82C21C5CA00FCF330 /* Philly_250_WorkMerk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Philly_250_WorkMerk.entitlements; sourceTree = "<group>"; };
+		9D08F7ED2C21C5CA00FCF330 /* Philly 250 WorkMerkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Philly 250 WorkMerkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D08F7F12C21C5CA00FCF330 /* Philly_250_WorkMerkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philly_250_WorkMerkTests.swift; sourceTree = "<group>"; };
+		9D08F7F72C21C5CA00FCF330 /* Philly 250 WorkMerkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Philly 250 WorkMerkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D08F7FB2C21C5CA00FCF330 /* Philly_250_WorkMerkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philly_250_WorkMerkUITests.swift; sourceTree = "<group>"; };
+		9D08F7FD2C21C5CA00FCF330 /* Philly_250_WorkMerkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philly_250_WorkMerkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D08F80A2C21CA9D00FCF330 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9DF545092C21CF0700ACD9B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D08F7D92C21C5C900FCF330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D08F8122C21CC0700FCF330 /* FirebaseDatabaseSwift in Frameworks */,
+				9D08F8102C21CC0700FCF330 /* FirebaseAnalyticsSwift in Frameworks */,
+				9D08F8162C21CC0700FCF330 /* FirebaseRemoteConfigSwift in Frameworks */,
+				9D08F80E2C21CC0700FCF330 /* FirebaseAnalytics in Frameworks */,
+				9D08F8142C21CC0700FCF330 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D08F7EA2C21C5CA00FCF330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D08F7F42C21C5CA00FCF330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D08F7D32C21C5C900FCF330 = {
+			isa = PBXGroup;
+			children = (
+				9D08F7DE2C21C5C900FCF330 /* Philly 250 WorkMerk */,
+				9D08F7F02C21C5CA00FCF330 /* Philly 250 WorkMerkTests */,
+				9D08F7FA2C21C5CA00FCF330 /* Philly 250 WorkMerkUITests */,
+				9D08F7DD2C21C5C900FCF330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D08F7DD2C21C5C900FCF330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D08F7DC2C21C5C900FCF330 /* Philly 250 WorkMerk.app */,
+				9D08F7ED2C21C5CA00FCF330 /* Philly 250 WorkMerkTests.xctest */,
+				9D08F7F72C21C5CA00FCF330 /* Philly 250 WorkMerkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D08F7DE2C21C5C900FCF330 /* Philly 250 WorkMerk */ = {
+			isa = PBXGroup;
+			children = (
+				9D08F80A2C21CA9D00FCF330 /* GoogleService-Info.plist */,
+				9D08F7DF2C21C5C900FCF330 /* Philly_250_WorkMerkApp.swift */,
+				9D08F7E12C21C5C900FCF330 /* ContentView.swift */,
+				9DF545092C21CF0700ACD9B8 /* AppDelegate.swift */,
+				9D08F7E32C21C5CA00FCF330 /* Assets.xcassets */,
+				9D08F7E82C21C5CA00FCF330 /* Philly_250_WorkMerk.entitlements */,
+				9D08F7E52C21C5CA00FCF330 /* Preview Content */,
+			);
+			path = "Philly 250 WorkMerk";
+			sourceTree = "<group>";
+		};
+		9D08F7E52C21C5CA00FCF330 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9D08F7E62C21C5CA00FCF330 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D08F7F02C21C5CA00FCF330 /* Philly 250 WorkMerkTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D08F7F12C21C5CA00FCF330 /* Philly_250_WorkMerkTests.swift */,
+			);
+			path = "Philly 250 WorkMerkTests";
+			sourceTree = "<group>";
+		};
+		9D08F7FA2C21C5CA00FCF330 /* Philly 250 WorkMerkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D08F7FB2C21C5CA00FCF330 /* Philly_250_WorkMerkUITests.swift */,
+				9D08F7FD2C21C5CA00FCF330 /* Philly_250_WorkMerkUITestsLaunchTests.swift */,
+			);
+			path = "Philly 250 WorkMerkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D08F7DB2C21C5C900FCF330 /* Philly 250 WorkMerk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D08F8012C21C5CA00FCF330 /* Build configuration list for PBXNativeTarget "Philly 250 WorkMerk" */;
+			buildPhases = (
+				9D08F7D82C21C5C900FCF330 /* Sources */,
+				9D08F7D92C21C5C900FCF330 /* Frameworks */,
+				9D08F7DA2C21C5C900FCF330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Philly 250 WorkMerk";
+			packageProductDependencies = (
+				9D08F80D2C21CC0700FCF330 /* FirebaseAnalytics */,
+				9D08F80F2C21CC0700FCF330 /* FirebaseAnalyticsSwift */,
+				9D08F8112C21CC0700FCF330 /* FirebaseDatabaseSwift */,
+				9D08F8132C21CC0700FCF330 /* FirebaseFirestoreSwift */,
+				9D08F8152C21CC0700FCF330 /* FirebaseRemoteConfigSwift */,
+			);
+			productName = "Philly 250 WorkMerk";
+			productReference = 9D08F7DC2C21C5C900FCF330 /* Philly 250 WorkMerk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D08F7EC2C21C5CA00FCF330 /* Philly 250 WorkMerkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D08F8042C21C5CA00FCF330 /* Build configuration list for PBXNativeTarget "Philly 250 WorkMerkTests" */;
+			buildPhases = (
+				9D08F7E92C21C5CA00FCF330 /* Sources */,
+				9D08F7EA2C21C5CA00FCF330 /* Frameworks */,
+				9D08F7EB2C21C5CA00FCF330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D08F7EF2C21C5CA00FCF330 /* PBXTargetDependency */,
+			);
+			name = "Philly 250 WorkMerkTests";
+			productName = "Philly 250 WorkMerkTests";
+			productReference = 9D08F7ED2C21C5CA00FCF330 /* Philly 250 WorkMerkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D08F7F62C21C5CA00FCF330 /* Philly 250 WorkMerkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D08F8072C21C5CA00FCF330 /* Build configuration list for PBXNativeTarget "Philly 250 WorkMerkUITests" */;
+			buildPhases = (
+				9D08F7F32C21C5CA00FCF330 /* Sources */,
+				9D08F7F42C21C5CA00FCF330 /* Frameworks */,
+				9D08F7F52C21C5CA00FCF330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D08F7F92C21C5CA00FCF330 /* PBXTargetDependency */,
+			);
+			name = "Philly 250 WorkMerkUITests";
+			productName = "Philly 250 WorkMerkUITests";
+			productReference = 9D08F7F72C21C5CA00FCF330 /* Philly 250 WorkMerkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D08F7D42C21C5C900FCF330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9D08F7DB2C21C5C900FCF330 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9D08F7EC2C21C5CA00FCF330 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9D08F7DB2C21C5C900FCF330;
+					};
+					9D08F7F62C21C5CA00FCF330 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9D08F7DB2C21C5C900FCF330;
+					};
+				};
+			};
+			buildConfigurationList = 9D08F7D72C21C5C900FCF330 /* Build configuration list for PBXProject "Philly 250 WorkMerk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D08F7D32C21C5C900FCF330;
+			packageReferences = (
+				9D08F80C2C21CC0700FCF330 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 9D08F7DD2C21C5C900FCF330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D08F7DB2C21C5C900FCF330 /* Philly 250 WorkMerk */,
+				9D08F7EC2C21C5CA00FCF330 /* Philly 250 WorkMerkTests */,
+				9D08F7F62C21C5CA00FCF330 /* Philly 250 WorkMerkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D08F7DA2C21C5C900FCF330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D08F7E72C21C5CA00FCF330 /* Preview Assets.xcassets in Resources */,
+				9D08F7E42C21C5CA00FCF330 /* Assets.xcassets in Resources */,
+				9D08F80B2C21CA9D00FCF330 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D08F7EB2C21C5CA00FCF330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D08F7F52C21C5CA00FCF330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D08F7D82C21C5C900FCF330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF5450A2C21CF0700ACD9B8 /* AppDelegate.swift in Sources */,
+				9D08F7E22C21C5C900FCF330 /* ContentView.swift in Sources */,
+				9D08F7E02C21C5C900FCF330 /* Philly_250_WorkMerkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D08F7E92C21C5CA00FCF330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D08F7F22C21C5CA00FCF330 /* Philly_250_WorkMerkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D08F7F32C21C5CA00FCF330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D08F7FE2C21C5CA00FCF330 /* Philly_250_WorkMerkUITestsLaunchTests.swift in Sources */,
+				9D08F7FC2C21C5CA00FCF330 /* Philly_250_WorkMerkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D08F7EF2C21C5CA00FCF330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D08F7DB2C21C5C900FCF330 /* Philly 250 WorkMerk */;
+			targetProxy = 9D08F7EE2C21C5CA00FCF330 /* PBXContainerItemProxy */;
+		};
+		9D08F7F92C21C5CA00FCF330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D08F7DB2C21C5C900FCF330 /* Philly 250 WorkMerk */;
+			targetProxy = 9D08F7F82C21C5CA00FCF330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9D08F7FF2C21C5CA00FCF330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D08F8002C21C5CA00FCF330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9D08F8022C21C5CA00FCF330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Philly 250 WorkMerk/Philly_250_WorkMerk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Philly 250 WorkMerk/Preview Content\"";
+				DEVELOPMENT_TEAM = 835ZVTYDD9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparshkapoor.Philly-250-WorkMerk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9D08F8032C21C5CA00FCF330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Philly 250 WorkMerk/Philly_250_WorkMerk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Philly 250 WorkMerk/Preview Content\"";
+				DEVELOPMENT_TEAM = 835ZVTYDD9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparshkapoor.Philly-250-WorkMerk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9D08F8052C21C5CA00FCF330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 835ZVTYDD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparshkapoor.Philly-250-WorkMerkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Philly 250 WorkMerk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Philly 250 WorkMerk";
+			};
+			name = Debug;
+		};
+		9D08F8062C21C5CA00FCF330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 835ZVTYDD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparshkapoor.Philly-250-WorkMerkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Philly 250 WorkMerk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Philly 250 WorkMerk";
+			};
+			name = Release;
+		};
+		9D08F8082C21C5CA00FCF330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 835ZVTYDD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparshkapoor.Philly-250-WorkMerkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Philly 250 WorkMerk";
+			};
+			name = Debug;
+		};
+		9D08F8092C21C5CA00FCF330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 835ZVTYDD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sparshkapoor.Philly-250-WorkMerkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Philly 250 WorkMerk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D08F7D72C21C5C900FCF330 /* Build configuration list for PBXProject "Philly 250 WorkMerk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D08F7FF2C21C5CA00FCF330 /* Debug */,
+				9D08F8002C21C5CA00FCF330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D08F8012C21C5CA00FCF330 /* Build configuration list for PBXNativeTarget "Philly 250 WorkMerk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D08F8022C21C5CA00FCF330 /* Debug */,
+				9D08F8032C21C5CA00FCF330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D08F8042C21C5CA00FCF330 /* Build configuration list for PBXNativeTarget "Philly 250 WorkMerkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D08F8052C21C5CA00FCF330 /* Debug */,
+				9D08F8062C21C5CA00FCF330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D08F8072C21C5CA00FCF330 /* Build configuration list for PBXNativeTarget "Philly 250 WorkMerkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D08F8082C21C5CA00FCF330 /* Debug */,
+				9D08F8092C21C5CA00FCF330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D08F80C2C21CC0700FCF330 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D08F80D2C21CC0700FCF330 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D08F80C2C21CC0700FCF330 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		9D08F80F2C21CC0700FCF330 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D08F80C2C21CC0700FCF330 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		9D08F8112C21CC0700FCF330 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D08F80C2C21CC0700FCF330 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		9D08F8132C21CC0700FCF330 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D08F80C2C21CC0700FCF330 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		9D08F8152C21CC0700FCF330 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D08F80C2C21CC0700FCF330 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9D08F7D42C21C5C900FCF330 /* Project object */;
+}
